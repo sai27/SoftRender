@@ -1,12 +1,24 @@
 // *********************************************************************
-// Name: main.cpp
+// Name: SoftRenderApp.h
 // Date: 2017/02/12 04:12
 // Author: sai27
 // Description:
 // *********************************************************************
 #include "stdafx.h"
+#include "SoftRenderApp.h"
 
-int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd)
+void SoftRenderApp::Init(HINSTANCE hInstance)
 {
-	return 0;
+
 }
+
+void SoftRenderApp::Destroy()
+{
+	 
+}
+
+void SoftRenderApp::Run()
+{
+
+}
+
