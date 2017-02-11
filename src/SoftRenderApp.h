@@ -10,12 +10,17 @@
 class SoftRenderApp
 {
 public:
-	void Init(HINSTANCE hInstance);
+	SoftRenderApp();
+	~SoftRenderApp();
+
+	bool Init(HINSTANCE hInstance);
 	void Destroy();
 	void Run();
 
+	bool Update();
 private:
-
+	HINSTANCE	m_hInstance;
+	HWND		m_hWnd;
 };
 
 #endif
